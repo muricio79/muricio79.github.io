@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A Taverna</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/story.css">
+	<link rel="stylesheet" href="./css/mapa.css">
+	<link rel="stylesheet" href="./css/tela1.css">
+	<link rel="stylesheet" href="./css/desktop.css">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');</style>
+</head>
+<body>
+	<a id="botao__link" href="#"><img class="botao__imagem" src="./img/help.png" alt="Clique nesta imagem para navegar direto para as seções principais"></a>
+	<div id="mapa" class="mapa__fundo hide">
+		<div class="mapa__logo">
+			<a id="botao_main" class="mapa__logo--img" href="#"></a>
+		</div>
+		<div class="mapa__chamada">
+			<p>Então você já sabe o que quer? <br>Por favor diga o que deseja:</p>
+		</div>
+		<div class="mapa__opcoes">
+			<ul class="mapa__opcoes--lista">
+				<li id="bt-hq" class="mapa__opcoes--item"><a class="opcao mapa__opcoes--link" href="#">Quero ver as histórias</a></li>
+				<li id="bt-gallery" class="mapa__opcoes--item"><a class="opcao mapa__opcoes--link" href="#">Quero ver as ilustrações</a></li>
+				<li id="bt-propr" class="mapa__opcoes--item"><a class="opcao mapa__opcoes--link" href="#">Quem é o proprietário?</a></li>
+				<li id="bt-taverna" class="mapa__opcoes--item"><a class="opcao mapa__opcoes--link" href="#">Que lugar é este?</a></li>
+				<li id="bt-mail" class="mapa__opcoes--item"><a class="opcao mapa__opcoes--link" href="#">Quero falar com o proprietário!</a></li>
+			</ul>
+		</div>
+	</div>
+	<section id="historias" class="tela1 tela hide">
+		<div id="hq-abre" class="galeria">
+			<div id="char1" class="tela__char"><img src="./img/tavern.png" alt="dono da taverna desconfiado"></div>
+			<div id="fala1" class="tela__fala">
+				<div class="tela__texto">
+					<p>As histórias ficam ali naquele canto. Fique a vontade e chame se precisar de alguma coisa.</p>
+					<p>(os links abrirão no site Tapas.io)</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a class="opcao" href="#hq1">Obrigado!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="hq1" class="galeria">
+			<ul class="tela__opcoes--lista hq">
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq-abre">< volta</a></li>
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq2">> próxima</a></li>
+			</ul>
+			<h4 class="hq__titulo"><a class="hq__link" href="https://tapas.io/series/BalloonStar/info">Balão & Estrela</a></h4>
+		</div>
+		<div id="hq2" class="galeria">
+			<ul class="tela__opcoes--lista hq">
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq1">< volta</a></li>
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq3">> próxima</a></li>
+			</ul>
+			<h4 class="hq__titulo"><a class="hq__link" href="https://tapas.io/series/Ebony-Brazil/info">Ébano</a></h4>
+		</div>
+		<div id="hq3" class="galeria">
+			<ul class="tela__opcoes--lista hq">
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq2">< volta</a></li>
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq4">> próxima</a></li>
+			</ul>
+			<h4 class="hq__titulo"><a class="hq__link" href="https://tapas.io/series/IntensHeat/info">Extremo</a></h4>
+		</div>
+		<div id="hq4" class="galeria">
+			<ul class="tela__opcoes--lista hq">
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq3">< volta</a></li>
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq5">> próxima</a></li>
+			</ul>
+			<h4 class="hq__titulo"><a class="hq__link" href="https://tapas.io/series/Dizzydazzler/info">Dizzydazzler</a></h4>
+		</div>
+		<div id="hq5" class="galeria">
+			<ul class="tela__opcoes--lista hq">
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq4">< volta</a></li>
+				<li class="tela__opcoes--link"><a class="opcao" href="#hq-abre">^ Início</a></li>
+			</ul>
+			<h4 class="hq__titulo"><a class="hq__link" href="https://tapas.io/series/Dizzydazzler/info">Projeto JACI</a></h4>
+		</div>
+	</section>
+	<section id="ilustras" class="tela2 tela hide">
+		<div class="tela__container galeria">
+			<div id="char2" class="tela__char"><img src="./img/tavern.png" alt="dono da taverna desconfiado"></div>
+			<div id="fala2" class="tela__fala">
+				<div class="tela__texto">
+					<p>As imagens ficam lá do outro lado. Chame se precisar de alguma coisa.</p>
+					<p>(o link abrirá no site Deviantart)</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a class="opcao" href="https://murici0.deviantart.com/gallery/">Obrigado!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="proprietario" class="tela3 tela hide">
+		<div class="tela__container galeria">
+			<div id="char3" class="tela__char"><img src="./img/tavern.png" alt="dono da taverna desconfiado"></div>
+			<div id="fala3" class="tela__fala">
+				<div class="tela__texto">
+					<p>Ah, ele diz que rabisca desde criança. Fez aula, faculdade dessas coisas. Chegou a fazer fanzine, algumas revistinhas e resolveu agora fazer essas coisas só na internet.</p>
+					<p>Tem umas coisas legais, às vezes aproveito o horário do almoço pra dar uma olhada.</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="lugar" class="opcao" href="#">E esta taverna?</a></li>
+						<li class="tela__opcoes--link"><a aria-label="falar" href="#" class="opcao">Gostaria de falar com ele!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="lugar" class="tela4 tela hide">
+		<div class="tela__container galeria">
+			<div id="char4" class="tela__char"><img src="./img/tavern.png" alt="dono da taverna desconfiado"></div>
+			<div id="fala4" class="tela__fala">
+				<div class="tela__texto">
+					<p>Aqui ele abriu faz pouco tempo. Fez uma reforma e resolveu contratar uns funcionários, sorte minha.</p>
+					<p>Diz que foi para fazer um nexo e manter uma ligação das coisas que ele faz. Acho bacana, mas não tenho paciência pra organização. Prefiro lidar com gente (piscadinha).</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="proprietario" class="opcao" href="#">E o dono?</a></li>
+						<li class="tela__opcoes--link"><a aria-label="falar" href="#" class="opcao">Gostaria de falar com ele!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="falar" class="tela5 tela hide">
+		<div class="tela__container galeria">
+			<div id="char5" class="tela__char"><img src="./img/tavern.png" alt="dono da taverna desconfiado"></div>
+			<div id="fala5" class="tela__fala">
+				<div class="tela__texto">
+					<p>Você pode mandar um mensageiro elétrico diretamente pra ele, deixar um recado na floresta do pombo anil ou nas planícies deviantes.</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a class="opcao" href="mailto:muricio@mail.com">mandar e-mail (Mail.com)</a></li>
+						<li class="tela__opcoes--link"><a href="https://twitter.com/muricio79" class="opcao">mandar DM (Twitter)</a></li>
+						<li class="tela__opcoes--link"><a href="https://www.deviantart.com/murici0" class="opcao">mandar DM (Deviantart)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="entrada" class="tela6 tela ">
+		<div class="tela__container galeria">
+			<div id="recordatorio_entrada" class="tela__fala">
+				<div class="tela__texto">
+					<div id="entrada__noite" class="entrada hide">
+						<p>O vento frio da noite passa pelo seu rosto provocando um pequeno arrepio. O trilar constante dos grilos são o único som audível ao redor. A vegetação refrescada pela ausência do sol também traz o aroma da terra umidecida e das flores e frutos acres do cerrado.</p>
+						<p>Entre a vegetação rasteira e o relevo gentil, um pequeno edifício se destaca. À beira da estrada de terra, brilha como uma pequena vela num oceano de breu. </p>
+						<p>A taverna à frente tem pouca sinalização mas é o único abrigo contra a baixa temperatura e a escuridão envolvente em muitos quilômetros...</p>
+					</div>
+					<div id="entrada__tarde" class="entrada hide">
+						<p>Passado o auge da expressão solar, o vento começa a esfriar trazendo um pequeno conforto. Os grilos começam a trilar e o céu torna-se alaranjado. A vegetação refrescada pela ausência do sol também traz o aroma da terra umidecida e das flores e frutos acres do cerrado.</p>
+						<p>Entre a vegetação rasteira e o relevo gentil, um pequeno edifício se destaca. À beira da estrada de terra, uma pequena torre obscurecida pelo horizonte ao fundo em tons de púrpura, laranja e amarelo. </p>
+						<p>A taverna à frente tem pouca sinalização mas é o único abrigo em muitos quilômetros...</p>
+					</div>
+					<div id="entrada__manha" class="entrada hide">
+						<p>O vento seco e frio passa pelo seu rosto com um pouco de poeira seca. Você sente a secura do ar nas narinas, a umidade do seu hálito seca assim que passa pelos dentes. A vegetação próxima a um fio de água traz uma brisa fresca que desaparece ao encontrar os raios de luz e a terra seca.</p>
+						<p>Entre a vegetação rasteira e o relevo gentil, um pequeno edifício se destaca. À beira da estrada de terra, a única construção em quilômetros.</p>
+						<p>A taverna à frente tem pouca sinalização mas é o único abrigo contra a secura e um local provável onde conseguir algo para beber.</p>
+					</div>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="recepcao" href="#" class="opcao">Continuar</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="recepcao" class="tela hide">
+		<div class="tela__container galeria">
+			<div class="tela__char">
+				<img src="./img/tavern.png" alt="dono de taverna alegre">
+			</div>
+			<div id="recordatorio_recepcao" class="tela__fala">
+				<div class="tela__texto">
+					<div id="recep__noite" class="recep hide">
+						<p>(O atendente dá um pequeno pulo com o barulho do abrir da porta. Ele se levanta do banquinho encostado à parede e vem em sua direção até a borda do balcão, cobrindo um bocejo com as costas da mão).</p>
+						<p>Boa noite! <br>Em que posso ajudar, viajante?</p>
+					</div>
+					<div id="recep__tarde" class="recep hide">
+						<p>(O atendente se vira em sua direção ao ouvir o barulho da porta abrindo. Ele termina de mastigar algo e vem em sua direção até a borda do balcão, limpando os lábios com as costas de uma mão).</p>
+						<p>Bom tarde! <br>Em que posso ajudar, viajante?</p>
+					</div>
+					<div id="recep__manha" class="recep hide">
+						<p>(O atendente se vira em sua direção com o barulho do abrir da porta. Ele se levanta do banquinho encostado à parede e vem em sua direção até a borda do balcão, pegando um pano de prato).</p>
+						<p>Bom dia! <br>Em que posso ajudar, viajante?</p>
+					</div>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="bebida" class="opcao" href="#">Uma bebida para esquentar!</a></li>
+						<li class="tela__opcoes--link"><a aria-label="obras" class="opcao" href="#">Quero ver algumas artes!</a></li>
+						<li class="tela__opcoes--link"><a aria-label="alguem" class="opcao" href="#">Quero mais informações!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="obras" class="tela hide">
+		<div class="tela__container galeria">
+			<div class="tela__char">
+				<img src="./img/tavern.png" alt="dono da taverna surpreso">
+			</div>
+			<div id="recorda_obras" class="tela__fala">
+				<div class="tela__texto">
+					<div id="obras-dia" class="obras">
+						<p>Então alguém te indicou a taverna do patrão? Ninguém vem aqui a toa!</p>
+						<p>Bacana, seu interesse é nas histórias ou nas imagens?</p>
+					</div>
+					<div id="obras-noite" class="obras">
+						<p>Então... <br>(O atendente cobre outro bocejo com as costas da mão).</p>
+						<p>... seu interesse é nas histórias ou nas imagens?</p>
+					</div>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="historias" href="#" class="opcao">Quero ler os quadrinhos</a></li>
+						<li class="tela__opcoes--link"><a aria-label="ilustras" href="#" class="opcao">Quero ver as imagens</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="bebida" class="tela hide">
+		<div class="tela__container galeria">
+			<div class="tela__char">
+				<img src="./img/tavern.png" alt="">
+			</div>
+			<div id="recorda_bebida" class="tela__fala">
+				<div class="tela__texto">
+					<div id="manda">
+						<p>Boa, não é? Queima um pouco na descida...</p>
+					</div>
+					<div id="chega">
+						<p>Bem, acho que você já bebeu o bastante por hoje!</p>
+					</div>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a href="#" class="opcao beb">Bota mais uma!</a></li>
+						<li class="tela__opcoes--link"><a aria-label="recepcao" href="#" class="opcao beb">quero outra coisa</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="alguem" class="tela hide">
+		<div class="tela__container galeria">
+			<div class="tela__char">
+				<img src="./img/tavern.png" alt="">
+			</div>
+			<div id="recorda_alguem" class="tela__fala">
+				<div class="tela__texto">
+					<p>O patrão não costuma aparecer muito aqui. Não sou fofoqueiro, mas posso dizer uma coisa ou outra sobre ele. O que você quer saber? </p>
+					<p>Não adianta me perguntar sobre o ragatanga. Ele vai me demitir se eu falar sobre... ah, deixa pra lá.</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="proprietario" href="#" class="opcao">Quem é ele?</a></li>
+						<li class="tela__opcoes--link"><a aria-label="lugar" href="#" class="opcao">Por que ele abriu este lugar?</a></li>
+						<li class="tela__opcoes--link"><a aria-label="ragatanga" href="#" class="opcao">Ragatanga?</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="ragatanga" class="tela hide">
+		<div class="tela__container galeria">
+			<div class="tela__char">
+				<img src="./img/tavern.png" alt="">
+			</div>
+			<div id="recorda_raga" class="tela__fala">
+				<div class="tela__texto">
+					<p>É uma bobagem... não vale o meu emprego! <br>Esquece isso. Mesmo porque você teria que ver pra acreditar que o patrão faz toda a coreografia... </p>
+					<p>Quer dizer, eu não sei. As pessoas falam coisas por aí. <br>Vamos mudar de assunto!</p>
+				</div>
+				<div class="tela__opcoes">
+					<ul class="tela__opcoes--lista">
+						<li class="tela__opcoes--link"><a aria-label="proprietario" href="#" class="opcao">Quem é ele?</a></li>
+						<li class="tela__opcoes--link"><a aria-label="lugar" href="#" class="opcao">Por que ele abriu este lugar?</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="navega.js"></script>
+	<script src="periodtime.js"></script>
+</body>
+</html>
