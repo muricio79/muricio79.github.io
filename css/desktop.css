@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+	.hq__link{
+		font-size: 4rem;
+	}
+
+	.hq__titulo{
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		height: 20%;
+	}
+
+	.opcao{
+		font-size: 1rem;
+	}
+
+	.tela__char{
+		align-self: flex-start;
+		border: 1px solid yellow;
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		margin-left: 10%;
+		width: 250px;
+	}
+	.tela__char img{
+		flex-grow: 1;
+	}
+
+	.tela__fala{
+		min-height: 33%;
+		width: 80%;
+		margin: 0 auto 3rem auto;
+	}
+
+	.tela__texto{
+		/*align-items: center;*/
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		font-size: 1.1rem;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.tela__texto > p{
+		margin-block-end: 0;
+	}
+
+	.tela__opcoes{
+		align-self: center;
+	}
+
+	.tela__opcoes--link{margin-bottom: 1.5rem;}
+}

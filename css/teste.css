@@ -1,0 +1,58 @@
+body{
+	grid-template-areas: telinha;
+
+}
+.telinha{
+	width: 100vw;
+	height: 100vh;
+	background: url('../img/tav_bg.jpg') center / cover no-repeat;
+	/*display: flex;*/
+}
+
+.telinha__char{
+	/*border: 2px solid darkgreen;*/
+	margin-bottom: 0;
+	/*margin-top: 13.5%;*/
+}
+
+.telinha__lower{
+	background: linear-gradient(white, lightgray);
+	border: 4px solid gray;
+	border-radius: 1rem;
+	grid-column: 1 / 6;
+	grid-row: 4 / 5;
+	margin: 0 auto;
+	padding: 1.2rem;
+	box-shadow: .4rem .4rem .5rem;
+	width: calc(100vw - 5.5em);
+}
+
+.telinha__lower--botao{
+	border: 1px solid orange;
+	border-radius: .5rem;
+	color: orange;
+	padding: .5rem;
+	text-decoration: none;
+}
+
+.telinha__lower--botao:hover{
+	color: white;
+	background-color: orange;
+	transition: 0.4s;
+}
+
+.telinha__upper{
+	width: 100%;
+	grid-column: 2 / 3;
+	grid-row: 3 / 3;
+}
+
+@media screen and (min-width: 768px) {
+	.telinha{
+		display: grid;
+		grid-area: telinha;
+		grid-gap: .5em;
+		grid-template-columns: 3em 1fr 1fr 1fr 3em;
+		grid-template-rows: 2em 1fr 1fr 1fr 2em;
+	}
+}

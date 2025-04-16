@@ -1,0 +1,100 @@
+.banca{
+    padding: 1rem 0 5rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.edicao{
+    display: flex;
+    width: 360px;
+    height: 50vh;
+    margin-right: 20px;
+    background-color: white;
+}
+.edicao__titulo{
+    margin: 20px auto;
+}
+.menuout{
+/*    position: relative;
+    top: 1.8rem;*/
+    display: flex;
+}
+.menuout__item{
+    list-style: none;
+}
+.menuout__link{
+    color: darkgreen;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+.menuout__link:hover{
+    text-decoration: underline;
+}
+.menuout__item:last-child .menuout__link{
+    margin-right: 0;
+}
+.menuout__lista{
+    display: flex;
+}
+section, footer{
+    background-color: gray;
+}
+section{
+    align-content: center;
+    width: 100%;
+    min-height: 50vh;
+}
+.testa{
+    background-image: url('http://www.muricioart.com.br/img/logo3.png');
+    background-repeat: no-repeat;
+    background-position: -50px 0px;
+    display: flex;
+    /*height: 100px;*/
+    align-items: center;
+    justify-content: space-between;
+}
+.testa__titulo{left: 115px;}
+
+@media screen and (min-width: 0){
+    body   {
+        font-size: 12px;
+    }
+    main, header, footer {
+        width: calc(100% - 0.8rem); 
+        display: flex;
+    }
+    header{
+        height: 10vh;
+    }
+    section{
+        padding: 0.4rem;
+    }
+    .testa__titulo{
+        position: relative;
+        /*top: 6vh;*/
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        font-size: 14px;
+    }
+    main, header, footer {
+        width: calc(100% - 4rem); 
+        display: flex;
+    }
+    header, footer, section{
+        padding: 2rem;
+    }
+    .testa__titulo{
+        position: relative;
+        /*top: 8vh;*/
+    }
+}
+@media screen and (min-width: 1189px){
+    body{
+        font-size: 16px;
+    }
+    .testa__titulo{
+        left: 160px;
+    }
+}

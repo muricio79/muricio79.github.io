@@ -1,0 +1,45 @@
+.galeria{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/*justify-content: space-between;*/
+	width: 100vw;
+}
+
+#hq-abre.galeria{
+	justify-content: flex-end;
+}
+
+.hq__link{
+	color: white;
+	text-decoration: none;
+}
+
+.hq__titulo{
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 2rem;
+	padding: .6rem;
+	text-align: center;
+	width: calc(100% - 1.2rem);
+}
+
+#hq1.galeria{
+	background: url(../img/balaoestrela.jpg) center / cover no-repeat;
+}
+#hq2.galeria{
+	background: url(../img/ebanocapa.jpg) center / cover no-repeat;
+}
+#hq3.galeria{
+	background: url(../img/extremocapa.jpg) center / cover no-repeat;
+}
+#hq4.galeria{
+	background: url(../img/ninjacapa.jpg) center / cover no-repeat;
+}
+#hq5.galeria{
+	background: url(../img/capajaci.jpg) center / cover no-repeat;
+}
+
+.tela__opcoes--lista.hq{
+	background-color: #DDD;
+}

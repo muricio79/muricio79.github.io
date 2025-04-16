@@ -1,0 +1,106 @@
+body{
+	font-family: 'Tiro Devanagari Hindi', serif;
+	grid-template-areas: telona;
+	scroll-behavior: smooth;
+}
+
+.blur{
+    filter: blur(200px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+
+.botao__imagem{
+	height: 50px;
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+	width: 50px;
+}
+
+.botao__imagem:hover{
+	height: 60px;
+	width: 60px;
+}
+
+.hide{
+	display: none;
+}
+
+#historias > .galeria{
+	justify-content: space-between;
+}
+
+#ilustras, #historias, #proprietario, #lugar, #falar, #entrada, #recepcao, #obras, #bebida, #alguem, #ragatanga{
+	background: url('../img/tav_bg.jpg') center / cover no-repeat;
+}
+
+.opcao{
+	border: 1px solid orange;
+	border-radius: .5rem;
+	color: black;
+	line-height: 1.5rem;
+	padding: .5rem;
+	text-decoration: none;
+}
+
+.opcao:hover{
+	color: white;
+	background-color: orange;
+	transition: 0.4s;
+}
+
+.tela{
+	height: 100vh;
+	width: 100vw;
+}
+
+.tela__char{
+	align-self: center;
+	margin-bottom: 0;
+	margin-left: 5%;
+}
+
+.tela__fala{
+	background: linear-gradient(white, lightgray);
+	border: 4px solid gray;
+	border-radius: 1rem;
+	box-shadow: .4rem .4rem .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto 5px auto;
+	padding: 1rem;
+	width: calc(100vw - 5.5em);
+	min-height: 20%;
+}
+
+.tela__opcoes--lista{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 0;
+	padding: 1rem 0 0 1rem;
+	width: calc(100% - 1rem);
+}
+
+#historias > .galeria > .tela__opcoes--lista{
+	flex-direction: row;
+}
+
+.tela__opcoes--link{
+	display: inline;
+	list-style-type: none;
+	margin-bottom: 2em;
+	margin-right: 2em;
+}
+
+.tela__container{
+	justify-content: flex-end;
+}
+
+.tela6{
+	background-color: green;
+}
